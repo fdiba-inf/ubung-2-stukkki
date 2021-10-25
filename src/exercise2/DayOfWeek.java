@@ -3,36 +3,43 @@ package exercise2;
 import java.util.Scanner;
 
 public class DayOfWeek {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int day = input.nextInt();
-        switch (day) {
-  case 1:
-    System.out.println("Monday");
-    break;
-  case 2:
-    System.out.println("Tuesday");
-    break;
-  case 3:
-    System.out.println("Wednesday");
-    break;
-  case 4:
-    System.out.println("Thursday");
-    break;
-  case 5:
-    System.out.println("Friday");
-    break;
-  case 6:
-    System.out.println("Saturday");
-    break;
-  case 7:
-    System.out.println("Sunday");
-    break;
-  default:
-  System.out.println("Invalid day");
+        
+        int number = input.nextInt();
+        
+        if (number == 1) { 
+        System.out.println("Day of week: Monday");
+        } else if (number == 2) {
+          System.out.println("Day of week: Tuesday");
+          
+        }
+        else if (number == 3) {
+          System.out.println("Day of week: Wednesday");
+        }
+        else if (number == 4) {
+          System.out.println("Day of week: Thursday");
+        }
+        else if (number == 5) {
+          System.out.println("Day of week: Friday");
+        }
+        else if (number == 6) {
 
-  }      
+          System.out.println("Day of week: Saturday");
+
+        }
+        else if (number == 7) {
+          System.out.println("Day of week: Sunday");
+        } else {
+          System.out.println("Day of week: Invalid day");
+        }
+
+	 }
+
+
+}     
         }
 
     }
