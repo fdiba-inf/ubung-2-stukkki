@@ -7,11 +7,11 @@ public class Circle {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter radius: ");
-        int r=input.nextInt();
-        double c=2*Math.PI*r;
-        System.out.println("Circumference: "+ c);
-        double a=Math.PI*r*r;
-        System.out.println("Area: "+ r);
+        int radius=input.nextInt();
+        double circ=2*Math.PI*radius;
+        System.out.println("Circumference: "+ circ);
+        double ar=Math.PI*radius*radius;
+        System.out.println("Area: "+ ar);
         }
 
     }
